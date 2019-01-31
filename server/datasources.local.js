@@ -1,7 +1,5 @@
 'use strict';
 
-console.log(JSON.stringify(process.env));
-
 module.exports = {
   memory: {
     name: 'memory',
