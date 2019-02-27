@@ -1,12 +1,6 @@
 'use strict';
 
 module.exports = {
-  memory: {
-    name: 'memory',
-    localStorage: '',
-    file: '',
-    connector: 'memory',
-  },
   default: {
     host: process.env.DB_HOST,
     port: process.env.DB_PORT,
